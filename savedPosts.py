@@ -11,9 +11,8 @@ import os
 import requests
 import wget
 
-#options = webdriver.ChromeOptions()
-#options.add_argument("headless")
-driver = webdriver.Chrome('C:\\Users\\User\\Desktop\\driver\\chromedriver.exe') #driver path
+
+driver = webdriver.Chrome('C:\\chromedriver.exe') #driver path
 driver.get("https://www.instagram.com/")
 
 user = input('enter your username: ')
